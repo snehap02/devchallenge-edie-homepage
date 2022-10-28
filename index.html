@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/devchallenges.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,0,200" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Edie homepage</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="">
+        <div class="mx-auto py-4">
+            <div class="flex justify-between px-6">
+                <div class="not-italic font-firstfont md:text-4xl text-2xl text-logoColor font-extrabold">Edie</div>
+            <div class="hidden lg:flex gap-7 font-secondfont not-italic font-medium text-2xl text-logoColor">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Our Works</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <!-- hamburger menu -->
+            <div class="lg:hidden flex items-center">
+                <button class="hamburger-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            </div>
+        </div>
+        <!-- mobile content -->
+        <div class="mobile-menu bg-white h-screen hidden font-secondfont not-italic font-medium text-xl text-logoColor">
+            <a href="#" class="block text-center mt-32 py-4">Home</a>
+            <a href="#" class="block text-center py-4">Services</a>
+            <a href="#" class="block text-center py-4">Our Works</a>
+            <a href="#" class="block text-center py-4">Clients</a>
+            <a href="#" class="block text-center py-4">Contact</a>
+        </div>
+    </nav>
+    
+    <section>
+        <!-- first section -->
+        <div class="ml-12 mt-10">
+            <h2 class="text-firstText font-secondfont not-italic font-medium text-xs md:text-lg">Unhappy with your website?</h2>
+            <h1 class="text-logoColor font-secondfont not-italic font-medium text-2xl md:text-5xl w-72">We create beautiful and fast web services</h1>
+        </div>
+
+        <!-- first image -->
+        <div class="mt-5 px-5">
+            <img src="/images/heroImage1.jpg" alt="" class="rounded-2xl w-full">
+        </div>
+
+        <!-- second section -->
+        <div class="mt-6 ml-12">
+            <h2 class="font-secondfont not-italic font-medium text-2xl w-secondsectionHead text-logoColor">Story, emotion and purpose</h2>
+            <div class="font-secondfont not-italic font-medium text-sm text-secondSection w-emailwidth pr-5 mt-6">
+                We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+            </div>
+            <div>
+                <h2 class="font-secondfont not-italic font-medium text-xs text-emailLabel mt-10">Want us to contact you?</h2>
+                <form action="" class="mt-4">
+                    <div class="relative w-80">
+                        <input type="email" name="" id="email" placeholder="Email" class="font-secondfont text-emailPlaceholder text-sm font-medium not-italic bg-joinBtn w-full p-5 rounded-xl">
+                        <button type="submit" class="font-secondfont text-sm font-medium not-italic text-joinBtn bg-joinBtnBg absolute right-2.5 top-2 px-6 py-3 rounded-xl">Join</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- third section -->
+        <div class="mt-24 ml-8">
+            <h2 class="font-secondfont not-italic font-medium text-2xl w-secondsectionHead text-logoColor ml-4">We offer high demand services</h2>
+            <div class="grid grid-cols-1 md:grid md:grid-cols-3 mt-14 gap-20">
+                <div class="p-4">
+                    <div class="bg-joinBtnBg w-16 rounded-2xl mt-7">
+                        <img src="/images/icons8-edit.svg" alt="" class="p-4">
+                    </div>
+                    <h2 class="font-secondfont not-italic font-bold text-2xl text-logoColor mt-7">UI/UX Design</h2>
+                    <h2 class="font-secondfont not-italic font-normal text-base text-secondSection w-72 mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</h2>
+                    <button type="submit" class="text-emailLabel bg-button px-4 py-2 rounded-xl text-base font-secondfont font-medium not-italic mt-7">Get started</button>
+                </div>
+                <div class="p-4 rounded-3xl shadow-lg w-emailwidth">
+                    <div class="bg-green w-16 h-16 rounded-2xl mt-7">
+                        <span class="material-symbols-rounded text-white ml-left mt-3 text-4xl font-medium">
+                            code
+                        </span>
+                    </div>
+                    <h2 class="font-secondfont not-italic font-bold text-2xl text-logoColor mt-7">Front End</h2>
+                    <h2 class="font-secondfont not-italic font-normal text-base text-secondSection w-72 mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</h2>
+                    <button type="submit" class="text-white bg-joinBtnBg px-4 py-2 rounded-xl text-base font-secondfont font-medium not-italic mt-7 mb-6">Get started</button>
+                </div>
+                <div class="p-4">
+                    <div class="bg-red w-16 h-16 rounded-2xl mt-7">
+                        <span class="material-symbols-rounded text-white ml-left mt-3 text-4xl font-extrabold">
+                            storage
+                        </span>
+                    </div>
+                    <h2 class="font-secondfont not-italic font-bold text-2xl text-logoColor mt-7">Back End</h2>
+                    <h2 class="font-secondfont not-italic font-normal text-base text-secondSection w-72 mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</h2>
+                    <button type="submit" class="text-emailLabel bg-button px-4 py-2 rounded-xl text-base font-secondfont font-medium not-italic mt-7">Get started</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- fourth section -->
+        <div class="mt-24">
+            <h2 class="font-secondfont not-italic font-medium text-2xl w-72 text-logoColor ml-12">Good design means good business</h2>
+            <div class="grid grid-cols-1 md:grid md:grid-cols-2 p-5 mt-6">
+                <div>
+                    <div>
+                        <img src="/images/smarthome.jpg" alt="" class="rounded-3xl w-full">
+                        <div class="mt-4">
+                            <h2 class="font-secondfont not-italic font-light text-sm text-emailLabel">Full stack application</h2>
+                            <h1 class="text-logoColor text-lg font-secondfont font-medium">Smart home dashboard</h1>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <img src="/images/onboard.png" alt="" class="rounded-3xl w-full">
+                        <div class="mt-4">
+                            <h2 class="font-secondfont not-italic font-light text-sm text-emailLabel">UX/UI design</h2>
+                            <h1 class="text-logoColor text-lg font-secondfont font-medium">Onboard application</h1>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mt-10">
+                        <img src="/images/booking.png" alt="" class="rounded-3xl w-full">
+                        <div class="mt-4">
+                            <h2 class="font-secondfont not-italic font-light text-sm text-emailLabel">Mobile application</h2>
+                            <h1 class="text-logoColor text-lg font-secondfont font-medium">Booking system</h1>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <img src="/images/juice-product.png" alt="" class="rounded-3xl w-full">
+                        <div class="mt-4">
+                            <h2 class="font-secondfont not-italic font-light text-sm text-emailLabel">Front End application</h2>
+                            <h1 class="text-logoColor text-lg font-secondfont font-medium">Juice product homepage</h1>
+                        </div>
+                        <div class="md:text-right">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
