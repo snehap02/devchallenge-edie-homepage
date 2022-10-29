@@ -18,14 +18,23 @@ module.exports = {
         joinBtnBg: '#2D9CDB',
         button: '#E0E0E0',
         green: '#27AE60',
-        red: '#EB5757'
+        red: '#EB5757',
+        footer: '#100E1D'
       },
       width:{
         secondsectionHead: '14rem',
-        emailwidth: '22rem'
+        emailwidth: '22rem',
+        firstsectionmd: '550px',
+        lastwidth: '900px',
+        middlewidth: '19rem'
       },
       margin:{
-        left: '0.85rem'
+        left: '0.85rem',
+        marginleftone:'20rem',
+        marginlefttwo: '30rem'
+      },
+      borderRadius:{
+        border: '2.5rem'
       }
     },
   },
